@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>F1 Racing</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!--===============================================================================================-->
+</head>
+
+<body>
+
+
+	</div>
+
+	<div class="limiter">
+		<div class="container-table100">
+			<form action="#" class="simple-form" name="year" id="change-form">
+				<style>
+					.simple-form {
+						display: flex;
+						overflow-y: scroll;
+						padding-bottom: 1.25rem;
+					}
+
+					.simple-form input {
+						margin: 0 .25rem;
+						min-width: 400px;
+						border: 1px solid #eee;
+						border-left: 3px solid;
+						border-radius: 5px;
+						transition: border-color .5s ease-out;
+						box-shadow: 0 0 20px #191414;
+						
+					}
+
+					.simple-form input:optional {
+						border-left-color: #999;
+					}
+
+					.simple-form input:required {
+						border-left-color: palegreen;
+					}
+
+					.simple-form input:invalid {
+						border-left-color: salmon;
+					}
+					
+
+					input {
+						text-align: center;
+					}
+				</style>
+				<input type="text" placeholder="Enter a Year" name=year required>
+				<input type="email" placeholder="Enter a Lap" required name=lap>
+			</form>
+			<button onclick="dataChange()" type="button" class="btn-3d blue">Submit</button>
+
+
+			<div class="wrap-table100">
+				<div class="table100">
+					<table>
+						<thead>
+							<tr class="table100-head">
+								<th class="column1">Position</th>
+								<th class="column2">Name</th>
+								<th class="column3">Nationality</th>
+								<th class="column4">Points</th>
+								<th class="column6">Sponsor</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td  class="column1" id="Position">
+									</td>
+								<td class="column1" id="DriveName"></td>
+								<td class="column1" id="Nation"></td>
+								<td  id="Points"></td>
+								<td class="column1" id="Sponsor" align="center"></td>
+							</tr>
+
+							</tr>
+
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
